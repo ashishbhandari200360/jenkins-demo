@@ -1,0 +1,27 @@
+{
+	"network": {
+		"allowedDomains": [],
+		"deniedDomains": []
+	},
+	"filesystem": {
+		"denyRead": [
+			"/home/ashish/.vscode/tmp/tmp_vscode_1/vscode-sandbox-settings-dc28a91c-a20e-44de-affe-2bd516248790.json",
+			"/home/ashish"
+		],
+		"allowRead": [
+			"/snap/code/252/usr/share/code/resources/app",
+			"/snap/code/252/usr/share/code/code",
+			"/snap/code/252/usr/share/code",
+			"/home/ashish/.config/Code/User/workspaceStorage/d1b49357a9ccd58f2505306bad15c24e",
+			"/home/ashish/jenkins-demo",
+			"/home/ashish/.vscode/tmp/tmp_vscode_1"
+		],
+		"allowWrite": [
+			"/home/ashish/jenkins-demo",
+			"/home/ashish/.vscode/tmp/tmp_vscode_1",
+			"/home/ashish/.config/Code/User/workspaceStorage/d1b49357a9ccd58f2505306bad15c24e"
+		],
+		"denyWrite": []
+	},
+	"enableWeakerNestedSandbox": false
+}
